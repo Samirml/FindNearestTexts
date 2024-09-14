@@ -1,0 +1,42 @@
+
+Epoch 1/30
+3it [00:01,  2.01it/s]
+Traceback (most recent call last):
+  File "/home/samir/PycharmProjects/FindNearestTexts/use_pretrained_model/find_nearest_texts.py", line 14, in <module>
+    from src.train import save_train_texts_and_keywords, save_test_texts
+  File "/home/samir/PycharmProjects/FindNearestTexts/src/train.py", line 62, in <module>
+    train(model, train_loader, optimizer, device, label_names)
+  File "/home/samir/PycharmProjects/FindNearestTexts/src/train_utils.py", line 34, in train
+    optimizer.step()
+  File "/home/samir/PycharmProjects/FindNearestTexts/.venv/lib/python3.8/site-packages/torch/optim/optimizer.py", line 484, in wrapper
+    out = func(*args, **kwargs)
+  File "/home/samir/PycharmProjects/FindNearestTexts/.venv/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/home/samir/PycharmProjects/FindNearestTexts/.venv/lib/python3.8/site-packages/torch/optim/adam.py", line 226, in step
+    adam(
+  File "/home/samir/PycharmProjects/FindNearestTexts/.venv/lib/python3.8/site-packages/torch/optim/optimizer.py", line 161, in maybe_fallback
+    return func(*args, **kwargs)
+  File "/home/samir/PycharmProjects/FindNearestTexts/.venv/lib/python3.8/site-packages/torch/optim/adam.py", line 766, in adam
+    func(
+  File "/home/samir/PycharmProjects/FindNearestTexts/.venv/lib/python3.8/site-packages/torch/optim/adam.py", line 417, in _single_tensor_adam
+    bias_correction1 = 1 - beta1**step
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/samir/PycharmProjects/FindNearestTexts/use_pretrained_model/find_nearest_texts.py", line 14, in <module>
+    from src.train import save_train_texts_and_keywords, save_test_texts
+  File "/home/samir/PycharmProjects/FindNearestTexts/src/train.py", line 62, in <module>
+    train(model, train_loader, optimizer, device, label_names)
+  File "/home/samir/PycharmProjects/FindNearestTexts/src/train_utils.py", line 34, in train
+    optimizer.step()
+  File "/home/samir/PycharmProjects/FindNearestTexts/.venv/lib/python3.8/site-packages/torch/optim/optimizer.py", line 484, in wrapper
+    out = func(*args, **kwargs)
+  File "/home/samir/PycharmProjects/FindNearestTexts/.venv/lib/python3.8/site-packages/torch/optim/optimizer.py", line 89, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/home/samir/PycharmProjects/FindNearestTexts/.venv/lib/python3.8/site-packages/torch/optim/adam.py", line 226, in step
+    adam(
+  File "/home/samir/PycharmProjects/FindNearestTexts/.venv/lib/python3.8/site-packages/torch/optim/optimizer.py", line 161, in maybe_fallback
+    return func(*args, **kwargs)
+  File "/home/samir/PycharmProjects/FindNearestTexts/.venv/lib/python3.8/site-packages/torch/optim/adam.py", line 766, in adam
+    func(
+  File "/home/samir/PycharmProjects/FindNearestTexts/.venv/lib/python3.8/site-packages/torch/optim/adam.py", line 417, in _single_tensor_adam
+    bias_correction1 = 1 - beta1**step

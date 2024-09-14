@@ -1,0 +1,60 @@
+{
+    "os": "Linux-5.15.0-119-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2024-09-14T09:25:08.684805",
+    "startedAt": "2024-09-14T09:25:07.626292",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/samir/PycharmProjects/FindNearestTexts/use_pretrained_model/find_nearest_texts.py",
+    "codePathLocal": null,
+    "codePath": "use_pretrained_model/find_nearest_texts.py",
+    "git": {
+        "remote": null,
+        "commit": null
+    },
+    "email": "samiralzgulx@gmail.com",
+    "root": "/home/samir/PycharmProjects/FindNearestTexts",
+    "host": "samir-Aspire-E5-573G",
+    "username": "samir",
+    "executable": "/home/samir/PycharmProjects/FindNearestTexts/.venv/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2656.79875,
+        "min": 500.0,
+        "max": 3000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 600.0,
+            "min": 500.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2930.575,
+            "min": 500.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2300.362,
+            "min": 500.0,
+            "max": 3000.0
+        },
+        {
+            "current": 800.0,
+            "min": 500.0,
+            "max": 3000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 123.03690719604492,
+            "used": 43.91119384765625
+        }
+    },
+    "memory": {
+        "total": 15.531482696533203
+    }
+}

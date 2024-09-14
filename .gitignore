@@ -1,0 +1,6 @@
+.venv/
+.idea/
+/Notebooks_for_proj/
+/src/wandb
+/use_pretrained_model/wandb
+
