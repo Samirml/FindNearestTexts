@@ -68,10 +68,21 @@ launch it:
 ```bash
 python src/train.py
 ```
+In this model curves are like that:
+
+![Снимок экрана от 2024-09-14 22-18-06](https://github.com/user-attachments/assets/e2d32cfc-4e51-4bee-81bc-0df83969c500)
+
+
+![Снимок экрана от 2024-09-14 22-17-50](https://github.com/user-attachments/assets/53e83aff-d918-4e77-9c34-8dc8334db2ba)
+
+
+
 If you want to use trained model only, then clone the repository and write:
 ```bash
 uvicorn use_pretrained_model.find_nearest_texts:app --reload
 ```
+
+
 the application will be launched on your computer and you will see this interface:
 
 ![Снимок экрана от 2024-09-14 21-31-15](https://github.com/user-attachments/assets/c243d743-b854-4101-a8d4-6c482a17a1d7)
