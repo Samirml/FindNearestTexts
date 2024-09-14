@@ -5,36 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7747520-e046-4cfe-a19e-47fb5c484a46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/FindNearestTexts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model_upgrade.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model_versions/model_to_find_texts.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model_versions/wandb/debug-internal.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model_versions/wandb/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model_versions/wandb/latest-run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model_versions/wandb/run-20240914_112507-5eobeqxb/files/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model_versions/wandb/run-20240914_112507-5eobeqxb/files/output.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model_versions/wandb/run-20240914_112507-5eobeqxb/files/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model_versions/wandb/run-20240914_112507-5eobeqxb/files/wandb-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model_versions/wandb/run-20240914_112507-5eobeqxb/files/wandb-summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model_versions/wandb/run-20240914_112507-5eobeqxb/logs/debug-internal.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model_versions/wandb/run-20240914_112507-5eobeqxb/logs/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model_versions/wandb/run-20240914_112507-5eobeqxb/run-5eobeqxb.wandb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/train_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use_pretrained_model/extract_keywords.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use_pretrained_model/find_nearest_texts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Samirml"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Samirml/FindNearestTexts.git",
+    "accountId": "b30da66e-04e5-4d6e-b464-db5440e4a2f9"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -61,24 +45,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.config.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.extract_keywords.executor&quot;: &quot;Run&quot;,
-    &quot;Python.find_nearest_texts.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.model.executor&quot;: &quot;Run&quot;,
-    &quot;Python.model_upgrade.executor&quot;: &quot;Run&quot;,
-    &quot;Python.train.executor&quot;: &quot;Run&quot;,
-    &quot;Python.train_utils.executor&quot;: &quot;Run&quot;,
-    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/samir/PycharmProjects/FindNearestTexts&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.config.executor": "Run",
+    "Python.data.executor": "Run",
+    "Python.extract_keywords.executor": "Run",
+    "Python.find_nearest_texts.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.model.executor": "Run",
+    "Python.model_upgrade.executor": "Run",
+    "Python.train.executor": "Run",
+    "Python.train_utils.executor": "Run",
+    "Python.utils.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/samir/PycharmProjects/FindNearestTexts"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="FindNearestTexts" />
